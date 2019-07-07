@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: open sans;
+}
+
+#headerTop{
+	width: 1920px;
+	height: 32px;
+	background-color: #F1F1F1;
+}
+.topList{
+	position: relative;
+	top: 25%;
+	margin-left: 399px;
+	font-size: 12px;
+
+}
+
+.topList p{
+	margin-top: 6.6px;
+	list-style-type:none;
+	display: inline;
+	margin-right: 84px;
+}
+
+#iconPhone{
+	position: absolute;
+	left: 382px;
+	top: 7px;
+	width: 14.72px;
+	height: 14.72px;
+}
+
+#iconWhats{
+	position: absolute;
+	left: 550px;
+	top: 7px;
+	width: 14.4px;
+	height: 13.95px;
+}
+
+.topLink{
+	position: relative;
+	bottom: 15%;
+	margin-right: 385px;
+	margin-left: 50%;
+	text-align: right;
+	font-size: 11px;
+}
+
+.topLink li{
+	display: inline;
+	margin-left: 60px;
+}
+
+.topLink a{
+	text-decoration: none;
+	color: black;
+}
+
+.logoMoovin{
+	position: absolute;
+	left: 385px;
+	top: 62px;
+	width: 11%;
+}
+
+.containerSearch{
+	position: absolute;
+	left: 624px;
+	top: 62px;
+	height: 0px;
+}
+
+input{
+	padding: 20px;
+	border-width: 2px;
+	border-color: #DFDFDF;
+}
+
+input,select,textarea{
+	border-radius: 5px;
+	width: 670px;
+	height: 50px;
+}
+
+textarea:focus, select:focus, button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+::placeholder {
+  color: black;
+  font-family: open sans;
+  opacity: 1;
+}
+
+.containerSearch button{
+	width: 40px;
+	height: 40px;
+	border: 0;
+}
+
+#lupa{
+	position: absolute;
+	left: 625px;
+	top: 9px;
+	background: none;
+	border: 0;
+	cursor: pointer;
+}
+
+.menu{
+	position: absolute;
+	left: 1363px;
+	top: 76px;
+	width: 80px;
+	height: 22px;
+}
+
+.menu img{
+	padding-left: 4px;
+}
+
+.menu ul{
+	list-style-type:none;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	float: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+.menu ul ul{
+	position: absolute;
+	visibility: hidden;
+	width: 174px;
+	height: 154px;
+	right: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px #000000;
+	background-color: white;
+}
+
+.menu ul li:hover ul{
+	visibility: visible;
+}
+
+#minhaConta{
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#meusPedidos{
+	font-size: 15px;
+	padding-bottom: 15px;
+	padding-left: 37px;
+	padding-right: 37px;
+}
+
+#listaDesejos{
+	font-size: 15px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.cart{
+	position: absolute;
+	left: 1498.26px;
+	top: 73.25px;
+}
+
+.count{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	left: 1510px;
+	top: 82px;
+	font-size: 11px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	border-radius: 100%;
+}
+
+.count p{
+	position: relative;
+	top: 25%;
+	cursor: default;
+}
